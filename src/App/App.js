@@ -22,7 +22,7 @@ class App extends Component {
     postReservation(newReservation)
     .then(resp => console.log(resp))
     .catch(err => console.log(err.message))
-    this.setState({ reservations: [...this.state.reservations, newReservation]})
+    this.setState({reservations: [...this.state.reservations, newReservation]})
   }
 
   render() {
