@@ -1,6 +1,7 @@
 .reservation-card {
   background: white;
-  width: 12em;
+  width: 14em;
+  height: 14em;
   border: 4px solid teal;
   color: teal;
 }

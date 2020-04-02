@@ -1,0 +1,12 @@
+input {
+  width: 12em;
+  height: 2em;
+  margin: 2em;
+}
+
+.reservation-btn {
+  background: teal;
+  color: white;
+  width: 15em;
+  height: 2.5em;
+}

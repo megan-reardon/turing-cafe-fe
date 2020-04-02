@@ -38,33 +38,33 @@ class Form extends Component {
       <form>
         <input
           type='text'
-          placeholder='name'
+          placeholder='Name'
           value={this.state.name}
           name='name'
           onChange={this.handleChange}
         />
         <input
           type='text'
-          placeholder='date'
+          placeholder='Date (mm/dd)'
           value={this.state.date}
           name='date'
           onChange={this.handleChange}
         />
         <input
           type='text'
-          placeholder='time'
+          placeholder='Time'
           value={this.state.time}
           name='time'
           onChange={this.handleChange}
         />
         <input
           type='number'
-          placeholder='number'
+          placeholder='Number of guests'
           value={this.state.number}
           name='number'
           onChange={this.handleChange}
         />
-        <button onClick={this.submitReservation}
+        <button className="reservation-btn" onClick={this.submitReservation}
         >Make Reservation!
         </button>
       </form>
