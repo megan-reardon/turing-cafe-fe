@@ -10,7 +10,7 @@ class App extends Component {
 
         </div>
         <div className='resy-container'>
-          
+
         </div>
       </div>
     )
