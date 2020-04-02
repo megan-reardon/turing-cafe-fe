@@ -7,7 +7,7 @@ describe('Reservations', () => {
   it('should render reservation cards', () => {
     const { getByText } = render (
       <Reservations
-        id={3}
+        id={4}
         name={"Meg"}
         date={"07/05"}
         time={"7:30"}
