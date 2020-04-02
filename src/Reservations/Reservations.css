@@ -1,0 +1,15 @@
+.reservation-card {
+  background: white;
+  width: 12em;
+  border: 4px solid teal;
+  color: teal;
+}
+
+.cancel-btn {
+  width: 12em;
+  height: 3em;
+  background: teal;
+  color: white;
+  margin-bottom: 1em;
+  font-size: .75em;
+}
