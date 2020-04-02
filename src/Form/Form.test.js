@@ -5,7 +5,7 @@ import '@testing-library/jest-dom';
 
 describe('Form', () => {
   it('should render the correct form inputs', () => {
-    const { getByPlaceholderText } = render(
+    const { getByPlaceholderText, getByText } = render(
       <Form
       />);
 
@@ -13,9 +13,11 @@ describe('Form', () => {
       const dateInput = getByPlaceholderText("Date (mm/dd)");
       const timeInput = getByPlaceholderText("Time");
       const numberInput = getByPlaceholderText("Number of guests");
+      const resButton = getByText("Make Reservation!")
       expect(nameInput).toBeInTheDocument();
       expect(dateInput).toBeInTheDocument();
       expect(timeInput).toBeInTheDocument();
       expect(numberInput).toBeInTheDocument();
+      expect(resButton).toBeInTheDocument();
   })
 })
