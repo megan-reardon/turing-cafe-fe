@@ -16,8 +16,8 @@ describe('Reservations', () => {
 
       const nameEl = getByText("Meg");
       const dateEl = getByText("07/05");
-      const timeEl = getByText("7:30 pm")
-      const numberEl = getByText("Number of guests: 3")
+      const timeEl = getByText("7:30 pm");
+      const numberEl = getByText("Number of guests: 3");
 
       expect(nameEl).toBeInTheDocument();
       expect(dateEl).toBeInTheDocument();

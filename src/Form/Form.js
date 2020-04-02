@@ -8,7 +8,7 @@ class Form extends Component {
       name: '',
       date: '',
       time: '',
-      number: null
+      number: ''
     }
   }
 
@@ -29,7 +29,7 @@ class Form extends Component {
       name: '',
       date: '',
       time: '',
-      number: null
+      number: ''
     })
   }
 
