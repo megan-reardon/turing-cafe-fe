@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import ReservationContainer from '../ReservationContainer/ReservationContainer';
 import Form from '../Form/Form';
-import { getReservations } from '../apiCalls';
+import { getReservations, postReservation } from '../apiCalls';
 
 class App extends Component {
   constructor() {
@@ -19,6 +19,9 @@ class App extends Component {
   }
 
   addReservation = (newReservation) => {
+    postReservation(newReservation)
+    .then(resp => console.log(resp))
+    .catch(err => console.log(err.message))
     this.setState({ reservations: [...this.state.reservations, newReservation]})
   }
 
